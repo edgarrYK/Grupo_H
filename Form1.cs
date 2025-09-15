@@ -18,7 +18,7 @@ namespace WinFormsApp3
 
         private void label2_Click(object sender, EventArgs e)
         {
-            
+
         }
 
         private void label1_Click_1(object sender, EventArgs e)
@@ -63,6 +63,15 @@ namespace WinFormsApp3
 
         private void logoGS_Click(object sender, EventArgs e)
         {
+
+        }
+
+        private void descripcionIS3_Click(object sender, EventArgs e)
+        {
+            Form3 frm = new Form3();
+            
+            frm.Show();
+            this.Hide();
 
         }
     }
