@@ -52,14 +52,14 @@ namespace WinFormsApp3
             // fondoGS
             // 
             fondoGS.BackColor = SystemColors.HighlightText;
+            fondoGS.Controls.Add(logoGS);
             fondoGS.Controls.Add(descripcionIS1);
             fondoGS.Controls.Add(botonIS);
             fondoGS.Controls.Add(textBoxIS);
             fondoGS.Controls.Add(títuloIS);
-            fondoGS.Location = new Point(10, 28);
-            fondoGS.Margin = new Padding(3, 2, 3, 2);
+            fondoGS.Location = new Point(12, 108);
             fondoGS.Name = "fondoGS";
-            fondoGS.Size = new Size(466, 394);
+            fondoGS.Size = new Size(533, 526);
             fondoGS.TabIndex = 18;
             fondoGS.Paint += fondoGS_Paint;
             // 
@@ -68,12 +68,12 @@ namespace WinFormsApp3
             descripcionIS1.AutoSize = true;
             descripcionIS1.BackColor = SystemColors.ControlLightLight;
             descripcionIS1.Font = new Font("Segoe UI", 10F);
-            descripcionIS1.Location = new Point(38, 106);
+            descripcionIS1.Location = new Point(56, 141);
             descripcionIS1.Name = "descripcionIS1";
-            descripcionIS1.Size = new Size(314, 19);
+            descripcionIS1.Size = new Size(394, 23);
             descripcionIS1.TabIndex = 20;
             descripcionIS1.Text = "Ingresa tu correo electrónico para crear tu cuenta.";
-            descripcionIS1.Click += this.descripcionIS1_Click;
+            descripcionIS1.Click += descripcionIS1_Click;
             // 
             // botonIS
             // 
@@ -81,10 +81,9 @@ namespace WinFormsApp3
             botonIS.FlatStyle = FlatStyle.Flat;
             botonIS.Font = new Font("Segoe UI", 9F, FontStyle.Bold, GraphicsUnit.Point, 0);
             botonIS.ForeColor = SystemColors.ControlLightLight;
-            botonIS.Location = new Point(328, 209);
-            botonIS.Margin = new Padding(3, 2, 3, 2);
+            botonIS.Location = new Point(400, 279);
             botonIS.Name = "botonIS";
-            botonIS.Size = new Size(82, 30);
+            botonIS.Size = new Size(94, 40);
             botonIS.TabIndex = 19;
             botonIS.Text = "Siguiente";
             botonIS.UseVisualStyleBackColor = false;
@@ -92,10 +91,9 @@ namespace WinFormsApp3
             // 
             // textBoxIS
             // 
-            textBoxIS.Location = new Point(38, 151);
-            textBoxIS.Margin = new Padding(3, 2, 3, 2);
+            textBoxIS.Location = new Point(56, 201);
             textBoxIS.Name = "textBoxIS";
-            textBoxIS.Size = new Size(371, 23);
+            textBoxIS.Size = new Size(423, 27);
             textBoxIS.TabIndex = 19;
             textBoxIS.Text = "Correo electrónico";
             textBoxIS.TextChanged += textBoxIS_TextChanged;
@@ -104,9 +102,9 @@ namespace WinFormsApp3
             // 
             títuloIS.AutoSize = true;
             títuloIS.Font = new Font("Segoe UI", 16.2F, FontStyle.Bold, GraphicsUnit.Point, 0);
-            títuloIS.Location = new Point(38, 61);
+            títuloIS.Location = new Point(56, 99);
             títuloIS.Name = "títuloIS";
-            títuloIS.Size = new Size(148, 30);
+            títuloIS.Size = new Size(186, 38);
             títuloIS.TabIndex = 6;
             títuloIS.Text = "Crear Cuenta";
             títuloIS.Click += títuloIS_Click;
@@ -114,22 +112,21 @@ namespace WinFormsApp3
             // logoGS
             // 
             logoGS.Image = (Image)resources.GetObject("logoGS.Image");
-            logoGS.Location = new Point(49, 53);
-            logoGS.Margin = new Padding(3, 2, 3, 2);
+            logoGS.Location = new Point(56, 52);
             logoGS.Name = "logoGS";
-            logoGS.Size = new Size(191, 33);
+            logoGS.Size = new Size(218, 44);
             logoGS.SizeMode = PictureBoxSizeMode.StretchImage;
             logoGS.TabIndex = 16;
             logoGS.TabStop = false;
-            //logoGS.Click += this.logoGS_Click;
             // 
             // Form3
             // 
-            AutoScaleDimensions = new SizeF(7F, 15F);
+            AutoScaleDimensions = new SizeF(8F, 20F);
             AutoScaleMode = AutoScaleMode.Font;
-            ClientSize = new Size(487, 450);
-            Controls.Add(logoGS);
+            BackgroundImage = (Image)resources.GetObject("$this.BackgroundImage");
+            ClientSize = new Size(557, 743);
             Controls.Add(fondoGS);
+            Margin = new Padding(3, 4, 3, 4);
             Name = "Form3";
             Text = "Sign up";
             Load += Form3_Load;
