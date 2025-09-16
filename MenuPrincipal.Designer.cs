@@ -29,46 +29,43 @@
         private void InitializeComponent()
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(MenuPrincipal));
-            menuStrip1 = new MenuStrip();
-            button1 = new Button();
-            button2 = new Button();
+            Store = new Button();
+            Library = new Button();
             button3 = new Button();
-            textBox1 = new TextBox();
-            button4 = new Button();
-            button5 = new Button();
+            Search = new TextBox();
+            Wishlist = new Button();
+            Cart = new Button();
             pictureBox1 = new PictureBox();
-            button6 = new Button();
-            button7 = new Button();
-            button8 = new Button();
+            Juego1 = new Button();
+            Juego2 = new Button();
+            Juego3 = new Button();
+            label2 = new Label();
             ((System.ComponentModel.ISupportInitialize)pictureBox1).BeginInit();
             SuspendLayout();
             // 
-            // menuStrip1
+            // Store
             // 
-            menuStrip1.ImageScalingSize = new Size(20, 20);
-            menuStrip1.Location = new Point(0, 0);
-            menuStrip1.Name = "menuStrip1";
-            menuStrip1.Size = new Size(1262, 24);
-            menuStrip1.TabIndex = 0;
-            menuStrip1.Text = "menuStrip1";
+            Store.BackColor = SystemColors.ActiveCaptionText;
+            Store.FlatAppearance.BorderColor = SystemColors.ActiveCaptionText;
+            Store.ForeColor = SystemColors.ControlDark;
+            Store.Location = new Point(39, 68);
+            Store.Name = "Store";
+            Store.Size = new Size(143, 76);
+            Store.TabIndex = 1;
+            Store.Text = "Store";
+            Store.UseVisualStyleBackColor = false;
+            Store.Click += Store_Click;
             // 
-            // button1
+            // Library
             // 
-            button1.Location = new Point(39, 68);
-            button1.Name = "button1";
-            button1.Size = new Size(143, 76);
-            button1.TabIndex = 1;
-            button1.Text = "button1";
-            button1.UseVisualStyleBackColor = true;
-            // 
-            // button2
-            // 
-            button2.Location = new Point(39, 171);
-            button2.Name = "button2";
-            button2.Size = new Size(143, 76);
-            button2.TabIndex = 2;
-            button2.Text = "button2";
-            button2.UseVisualStyleBackColor = true;
+            Library.BackColor = SystemColors.ActiveCaptionText;
+            Library.ForeColor = SystemColors.ControlDark;
+            Library.Location = new Point(39, 171);
+            Library.Name = "Library";
+            Library.Size = new Size(143, 76);
+            Library.TabIndex = 2;
+            Library.Text = "Library";
+            Library.UseVisualStyleBackColor = false;
             // 
             // button3
             // 
@@ -79,30 +76,35 @@
             button3.Text = "button3";
             button3.UseVisualStyleBackColor = true;
             // 
-            // textBox1
+            // Search
             // 
-            textBox1.Location = new Point(298, 27);
-            textBox1.Name = "textBox1";
-            textBox1.Size = new Size(151, 27);
-            textBox1.TabIndex = 4;
+            Search.BackColor = Color.DimGray;
+            Search.Location = new Point(298, 27);
+            Search.Name = "Search";
+            Search.Size = new Size(151, 27);
+            Search.TabIndex = 4;
             // 
-            // button4
+            // Wishlist
             // 
-            button4.Location = new Point(762, 27);
-            button4.Name = "button4";
-            button4.Size = new Size(143, 76);
-            button4.TabIndex = 5;
-            button4.Text = "button4";
-            button4.UseVisualStyleBackColor = true;
+            Wishlist.BackColor = SystemColors.ActiveCaptionText;
+            Wishlist.ForeColor = SystemColors.ControlDark;
+            Wishlist.Location = new Point(762, 27);
+            Wishlist.Name = "Wishlist";
+            Wishlist.Size = new Size(143, 76);
+            Wishlist.TabIndex = 5;
+            Wishlist.Text = "Wishlist";
+            Wishlist.UseVisualStyleBackColor = false;
             // 
-            // button5
+            // Cart
             // 
-            button5.Location = new Point(937, 27);
-            button5.Name = "button5";
-            button5.Size = new Size(143, 76);
-            button5.TabIndex = 6;
-            button5.Text = "button5";
-            button5.UseVisualStyleBackColor = true;
+            Cart.BackColor = SystemColors.ActiveCaptionText;
+            Cart.ForeColor = SystemColors.ControlDark;
+            Cart.Location = new Point(937, 27);
+            Cart.Name = "Cart";
+            Cart.Size = new Size(143, 76);
+            Cart.TabIndex = 6;
+            Cart.Text = "Cart";
+            Cart.UseVisualStyleBackColor = false;
             // 
             // pictureBox1
             // 
@@ -114,50 +116,67 @@
             pictureBox1.TabIndex = 7;
             pictureBox1.TabStop = false;
             // 
-            // button6
+            // Juego1
             // 
-            button6.Location = new Point(1070, 160);
-            button6.Name = "button6";
-            button6.Size = new Size(143, 76);
-            button6.TabIndex = 8;
-            button6.Text = "button6";
-            button6.UseVisualStyleBackColor = true;
+            Juego1.AutoSize = true;
+            Juego1.BackColor = SystemColors.ActiveCaptionText;
+            Juego1.ForeColor = SystemColors.Control;
+            Juego1.Location = new Point(1070, 160);
+            Juego1.Name = "Juego1";
+            Juego1.Size = new Size(143, 76);
+            Juego1.TabIndex = 8;
+            Juego1.Text = "Juego1";
+            Juego1.UseVisualStyleBackColor = false;
             // 
-            // button7
+            // Juego2
             // 
-            button7.Location = new Point(1070, 255);
-            button7.Name = "button7";
-            button7.Size = new Size(143, 76);
-            button7.TabIndex = 9;
-            button7.Text = "button7";
-            button7.UseVisualStyleBackColor = true;
+            Juego2.BackColor = SystemColors.ActiveCaptionText;
+            Juego2.ForeColor = SystemColors.Control;
+            Juego2.Location = new Point(1070, 255);
+            Juego2.Name = "Juego2";
+            Juego2.Size = new Size(143, 76);
+            Juego2.TabIndex = 9;
+            Juego2.Text = "Juego2";
+            Juego2.UseVisualStyleBackColor = false;
             // 
-            // button8
+            // Juego3
             // 
-            button8.Location = new Point(1070, 355);
-            button8.Name = "button8";
-            button8.Size = new Size(143, 76);
-            button8.TabIndex = 10;
-            button8.Text = "button8";
-            button8.UseVisualStyleBackColor = true;
+            Juego3.BackColor = SystemColors.ActiveCaptionText;
+            Juego3.ForeColor = SystemColors.Control;
+            Juego3.Location = new Point(1070, 355);
+            Juego3.Name = "Juego3";
+            Juego3.Size = new Size(143, 76);
+            Juego3.TabIndex = 10;
+            Juego3.Text = "Juego3";
+            Juego3.UseVisualStyleBackColor = false;
+            // 
+            // label2
+            // 
+            label2.AutoSize = true;
+            label2.ForeColor = SystemColors.ControlDark;
+            label2.Location = new Point(269, 30);
+            label2.Name = "label2";
+            label2.Size = new Size(23, 20);
+            label2.TabIndex = 25;
+            label2.Text = "🡨";
             // 
             // MenuPrincipal
             // 
             AutoScaleDimensions = new SizeF(8F, 20F);
             AutoScaleMode = AutoScaleMode.Font;
+            BackColor = SystemColors.ActiveCaptionText;
             ClientSize = new Size(1262, 673);
-            Controls.Add(button8);
-            Controls.Add(button7);
-            Controls.Add(button6);
+            Controls.Add(label2);
+            Controls.Add(Juego3);
+            Controls.Add(Juego2);
+            Controls.Add(Juego1);
             Controls.Add(pictureBox1);
-            Controls.Add(button5);
-            Controls.Add(button4);
-            Controls.Add(textBox1);
+            Controls.Add(Cart);
+            Controls.Add(Wishlist);
+            Controls.Add(Search);
             Controls.Add(button3);
-            Controls.Add(button2);
-            Controls.Add(button1);
-            Controls.Add(menuStrip1);
-            MainMenuStrip = menuStrip1;
+            Controls.Add(Library);
+            Controls.Add(Store);
             Name = "MenuPrincipal";
             Text = "Form5";
             ((System.ComponentModel.ISupportInitialize)pictureBox1).EndInit();
@@ -166,17 +185,16 @@
         }
 
         #endregion
-
-        private MenuStrip menuStrip1;
-        private Button button1;
-        private Button button2;
+        private Button Library;
         private Button button3;
-        private TextBox textBox1;
-        private Button button4;
-        private Button button5;
+        private TextBox Search;
+        private Button Wishlist;
+        private Button Cart;
         private PictureBox pictureBox1;
-        private Button button6;
-        private Button button7;
-        private Button button8;
+        private Button Juego1;
+        private Button Juego2;
+        private Button Juego3;
+        private Label label2;
+        public Button Store;
     }
 }

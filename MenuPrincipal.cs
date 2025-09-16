@@ -16,5 +16,10 @@ namespace WinFormsApp3
         {
             InitializeComponent();
         }
+
+        private void Store_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }
