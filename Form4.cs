@@ -31,5 +31,14 @@ namespace WinFormsApp3
         {
 
         }
+
+        private void botonIS_Click(object sender, EventArgs e)
+        {
+            LocalizacionFechaNaci LFN = new LocalizacionFechaNaci();
+
+            LFN.Show();
+
+            this.Hide();
+        }
     }
 }
