@@ -48,7 +48,7 @@
             Store.BackColor = SystemColors.ActiveCaptionText;
             Store.FlatAppearance.BorderColor = SystemColors.ActiveCaptionText;
             Store.ForeColor = SystemColors.ControlDark;
-            Store.Location = new Point(39, 68);
+            Store.Location = new Point(39, 80);
             Store.Name = "Store";
             Store.Size = new Size(143, 76);
             Store.TabIndex = 1;
@@ -60,7 +60,7 @@
             // 
             Library.BackColor = SystemColors.ActiveCaptionText;
             Library.ForeColor = SystemColors.ControlDark;
-            Library.Location = new Point(39, 171);
+            Library.Location = new Point(39, 183);
             Library.Name = "Library";
             Library.Size = new Size(143, 76);
             Library.TabIndex = 2;
@@ -69,12 +69,13 @@
             // 
             // button3
             // 
-            button3.Location = new Point(39, 281);
+            button3.Location = new Point(413, 511);
             button3.Name = "button3";
-            button3.Size = new Size(143, 76);
+            button3.Size = new Size(112, 58);
             button3.TabIndex = 3;
-            button3.Text = "button3";
+            button3.Text = "See In Shop";
             button3.UseVisualStyleBackColor = true;
+            button3.Click += button3_Click;
             // 
             // Search
             // 
@@ -83,6 +84,7 @@
             Search.Name = "Search";
             Search.Size = new Size(151, 27);
             Search.TabIndex = 4;
+            Search.TextChanged += Search_TextChanged;
             // 
             // Wishlist
             // 
@@ -170,13 +172,13 @@
             Controls.Add(Juego3);
             Controls.Add(Juego2);
             Controls.Add(Juego1);
-            Controls.Add(pictureBox1);
             Controls.Add(Cart);
             Controls.Add(Wishlist);
             Controls.Add(Search);
             Controls.Add(button3);
             Controls.Add(Library);
             Controls.Add(Store);
+            Controls.Add(pictureBox1);
             Name = "MenuPrincipal";
             Text = "Form5";
             ((System.ComponentModel.ISupportInitialize)pictureBox1).EndInit();
