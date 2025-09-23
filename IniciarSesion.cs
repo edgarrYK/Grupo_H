@@ -1,10 +1,12 @@
 namespace WinFormsApp3
 {
-    public partial class Form1 : Form
+    public partial class IniciarSesion : Form
     {
-        public Form1()
+        public IniciarSesion()
         {
             InitializeComponent();
+            this.StartPosition = FormStartPosition.CenterScreen;
+
         }
 
         private void label1_Click(object sender, EventArgs e)
@@ -66,10 +68,11 @@ namespace WinFormsApp3
 
         }
 
-        private void descripcionIS3_Click(object sender, EventArgs e)
+
+        private void linkLabel1_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
         {
-            Form3 frm = new Form3();
-            
+            CrearCuentaCorreo frm = new CrearCuentaCorreo();
+
             frm.Show();
             this.Hide();
 

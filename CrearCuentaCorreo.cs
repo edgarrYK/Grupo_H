@@ -10,11 +10,13 @@ using System.Windows.Forms;
 
 namespace WinFormsApp3
 {
-    public partial class Form3 : Form
+    public partial class CrearCuentaCorreo : Form
     {
-        public Form3()
+        public CrearCuentaCorreo()
         {
             InitializeComponent();
+            this.StartPosition = FormStartPosition.CenterScreen;
+
         }
 
         private void Form3_Load(object sender, EventArgs e)
@@ -34,7 +36,7 @@ namespace WinFormsApp3
 
         private void botonIS_Click(object sender, EventArgs e)
         {
-            Form4 f4 = new Form4();
+            CrearCuentaNombre f4 = new CrearCuentaNombre();
 
             f4.Show();
 
