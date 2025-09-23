@@ -1,6 +1,6 @@
 ﻿namespace WinFormsApp3
 {
-    partial class Form1
+    partial class IniciarSesion
     {
         /// <summary>
         ///  Required designer variable.
@@ -28,7 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
-            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Form1));
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(IniciarSesion));
             botonIS = new Button();
             laExito = new Label();
             títuloIS = new Label();
@@ -36,8 +36,8 @@
             logoGS = new PictureBox();
             descripcionIS2 = new Label();
             textBoxIS = new TextBox();
-            descripcionIS3 = new Label();
             fondoGS = new Panel();
+            linkLabel1 = new LinkLabel();
             ((System.ComponentModel.ISupportInitialize)logoGS).BeginInit();
             fondoGS.SuspendLayout();
             SuspendLayout();
@@ -119,26 +119,15 @@
             textBoxIS.Location = new Point(49, 238);
             textBoxIS.Margin = new Padding(3, 2, 3, 2);
             textBoxIS.Name = "textBoxIS";
+            textBoxIS.PlaceholderText = "ejemplo@outlook.es";
             textBoxIS.Size = new Size(371, 23);
             textBoxIS.TabIndex = 12;
-            textBoxIS.Text = "Correo electrónico";
             textBoxIS.TextChanged += textBox1_TextChanged;
-            // 
-            // descripcionIS3
-            // 
-            descripcionIS3.AutoSize = true;
-            descripcionIS3.BackColor = SystemColors.ControlLightLight;
-            descripcionIS3.Font = new Font("Segoe UI", 10F);
-            descripcionIS3.Location = new Point(49, 275);
-            descripcionIS3.Name = "descripcionIS3";
-            descripcionIS3.Size = new Size(151, 19);
-            descripcionIS3.TabIndex = 13;
-            descripcionIS3.Text = "¿No tienes una cuenta?";
-            descripcionIS3.Click += descripcionIS3_Click;
             // 
             // fondoGS
             // 
             fondoGS.BackColor = SystemColors.HighlightText;
+            fondoGS.Controls.Add(linkLabel1);
             fondoGS.Controls.Add(títuloIS);
             fondoGS.Location = new Point(10, 73);
             fondoGS.Margin = new Padding(3, 2, 3, 2);
@@ -147,13 +136,25 @@
             fondoGS.TabIndex = 14;
             fondoGS.Paint += panel1_Paint;
             // 
-            // Form1
+            // linkLabel1
+            // 
+            linkLabel1.AutoSize = true;
+            linkLabel1.Font = new Font("Segoe UI", 10F);
+            linkLabel1.LinkColor = Color.FromArgb(64, 64, 64);
+            linkLabel1.Location = new Point(40, 200);
+            linkLabel1.Name = "linkLabel1";
+            linkLabel1.Size = new Size(151, 19);
+            linkLabel1.TabIndex = 7;
+            linkLabel1.TabStop = true;
+            linkLabel1.Text = "¿No tienes una cuenta?";
+            linkLabel1.LinkClicked += linkLabel1_LinkClicked;
+            // 
+            // IniciarSesion
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
             BackgroundImage = (Image)resources.GetObject("$this.BackgroundImage");
             ClientSize = new Size(487, 557);
-            Controls.Add(descripcionIS3);
             Controls.Add(textBoxIS);
             Controls.Add(descripcionIS2);
             Controls.Add(logoGS);
@@ -164,7 +165,7 @@
             FormBorderStyle = FormBorderStyle.FixedSingle;
             Margin = new Padding(3, 2, 3, 2);
             MaximizeBox = false;
-            Name = "Form1";
+            Name = "IniciarSesion";
             StartPosition = FormStartPosition.CenterScreen;
             Text = "Sign in";
             TopMost = true;
@@ -185,7 +186,7 @@
         private PictureBox logoGS;
         private Label descripcionIS2;
         private TextBox textBoxIS;
-        private Label descripcionIS3;
         private Panel fondoGS;
+        private LinkLabel linkLabel1;
     }
 }

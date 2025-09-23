@@ -1,6 +1,6 @@
 ﻿namespace WinFormsApp3
 {
-    partial class Form4
+    partial class CrearCuentaNombre
     {
         /// <summary>
         /// Required designer variable.
@@ -28,7 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
-            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Form4));
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(CrearCuentaNombre));
             logoGS = new PictureBox();
             fondoGS = new Panel();
             textBox1 = new TextBox();
@@ -45,9 +45,10 @@
             // logoGS
             // 
             logoGS.Image = (Image)resources.GetObject("logoGS.Image");
-            logoGS.Location = new Point(56, 34);
+            logoGS.Location = new Point(49, 26);
+            logoGS.Margin = new Padding(3, 2, 3, 2);
             logoGS.Name = "logoGS";
-            logoGS.Size = new Size(218, 44);
+            logoGS.Size = new Size(191, 33);
             logoGS.SizeMode = PictureBoxSizeMode.StretchImage;
             logoGS.TabIndex = 19;
             logoGS.TabStop = false;
@@ -63,26 +64,28 @@
             fondoGS.Controls.Add(botonIS);
             fondoGS.Controls.Add(textBoxIS);
             fondoGS.Controls.Add(títuloIS);
-            fondoGS.Location = new Point(12, 108);
+            fondoGS.Location = new Point(10, 81);
+            fondoGS.Margin = new Padding(3, 2, 3, 2);
             fondoGS.Name = "fondoGS";
-            fondoGS.Size = new Size(533, 525);
+            fondoGS.Size = new Size(466, 394);
             fondoGS.TabIndex = 20;
             // 
             // textBox1
             // 
-            textBox1.Location = new Point(56, 332);
+            textBox1.Location = new Point(49, 249);
+            textBox1.Margin = new Padding(3, 2, 3, 2);
             textBox1.Name = "textBox1";
-            textBox1.Size = new Size(423, 27);
+            textBox1.PlaceholderText = "Primer Apellido";
+            textBox1.Size = new Size(371, 23);
             textBox1.TabIndex = 23;
-            textBox1.Text = "Primer Apellido";
             textBox1.TextChanged += textBox1_TextChanged;
             // 
             // label2
             // 
             label2.AutoSize = true;
-            label2.Location = new Point(56, 99);
+            label2.Location = new Point(49, 74);
             label2.Name = "label2";
-            label2.Size = new Size(23, 20);
+            label2.Size = new Size(18, 15);
             label2.TabIndex = 22;
             label2.Text = "🡨";
             label2.Click += label2_Click;
@@ -92,9 +95,9 @@
             label1.AutoSize = true;
             label1.BackColor = SystemColors.ControlLightLight;
             label1.Font = new Font("Segoe UI", 10F);
-            label1.Location = new Point(80, 96);
+            label1.Location = new Point(70, 72);
             label1.Name = "label1";
-            label1.Size = new Size(357, 23);
+            label1.Size = new Size(286, 19);
             label1.TabIndex = 21;
             label1.Text = "aquiVaElCorreoIngresadoAntes@hotmail.com";
             label1.Click += label1_Click;
@@ -104,9 +107,9 @@
             descripcionIS1.AutoSize = true;
             descripcionIS1.BackColor = SystemColors.ControlLightLight;
             descripcionIS1.Font = new Font("Segoe UI", 10F);
-            descripcionIS1.Location = new Point(56, 200);
+            descripcionIS1.Location = new Point(49, 150);
             descripcionIS1.Name = "descripcionIS1";
-            descripcionIS1.Size = new Size(445, 46);
+            descripcionIS1.Size = new Size(355, 38);
             descripcionIS1.TabIndex = 20;
             descripcionIS1.Text = "Necesitamos un poco más de información para terminar \r\nde configurar tu cuenta.\r\n";
             // 
@@ -116,9 +119,10 @@
             botonIS.FlatStyle = FlatStyle.Flat;
             botonIS.Font = new Font("Segoe UI", 9F, FontStyle.Bold, GraphicsUnit.Point, 0);
             botonIS.ForeColor = SystemColors.ControlLightLight;
-            botonIS.Location = new Point(400, 400);
+            botonIS.Location = new Point(350, 300);
+            botonIS.Margin = new Padding(3, 2, 3, 2);
             botonIS.Name = "botonIS";
-            botonIS.Size = new Size(94, 40);
+            botonIS.Size = new Size(82, 30);
             botonIS.TabIndex = 19;
             botonIS.Text = "Siguiente";
             botonIS.UseVisualStyleBackColor = false;
@@ -126,32 +130,32 @@
             // 
             // textBoxIS
             // 
-            textBoxIS.Location = new Point(56, 284);
+            textBoxIS.Location = new Point(49, 213);
+            textBoxIS.Margin = new Padding(3, 2, 3, 2);
             textBoxIS.Name = "textBoxIS";
-            textBoxIS.Size = new Size(423, 27);
+            textBoxIS.PlaceholderText = "Primer Nombre";
+            textBoxIS.Size = new Size(371, 23);
             textBoxIS.TabIndex = 19;
-            textBoxIS.Text = "Primer Nombre";
             // 
             // títuloIS
             // 
             títuloIS.AutoSize = true;
             títuloIS.Font = new Font("Segoe UI", 16.2F, FontStyle.Bold, GraphicsUnit.Point, 0);
-            títuloIS.Location = new Point(56, 140);
+            títuloIS.Location = new Point(49, 105);
             títuloIS.Name = "títuloIS";
-            títuloIS.Size = new Size(244, 38);
+            títuloIS.Size = new Size(192, 30);
             títuloIS.TabIndex = 6;
             títuloIS.Text = "¿Cómo te llamas?";
             // 
-            // Form4
+            // CrearCuentaNombre
             // 
-            AutoScaleDimensions = new SizeF(8F, 20F);
+            AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
             BackgroundImage = (Image)resources.GetObject("$this.BackgroundImage");
-            ClientSize = new Size(557, 743);
+            ClientSize = new Size(487, 557);
             Controls.Add(fondoGS);
-            Margin = new Padding(3, 4, 3, 4);
-            Name = "Form4";
-            Text = "Sign up";
+            Name = "CrearCuentaNombre";
+            Text = "Registrarse";
             ((System.ComponentModel.ISupportInitialize)logoGS).EndInit();
             fondoGS.ResumeLayout(false);
             fondoGS.PerformLayout();

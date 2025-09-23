@@ -15,9 +15,27 @@ namespace WinFormsApp3
         public MenuPrincipal()
         {
             InitializeComponent();
+            // Ventana Maximizada
+            this.WindowState = FormWindowState.Maximized;
+
         }
 
         private void Store_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void Library_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void Search_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void pictureBox3_Click(object sender, EventArgs e)
         {
 
         }

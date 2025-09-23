@@ -10,11 +10,13 @@ using System.Windows.Forms;
 
 namespace WinFormsApp3
 {
-    public partial class Form4 : Form
+    public partial class CrearCuentaNombre : Form
     {
-        public Form4()
+        public CrearCuentaNombre()
         {
             InitializeComponent();
+            this.StartPosition = FormStartPosition.CenterScreen;
+
         }
 
         private void label1_Click(object sender, EventArgs e)
@@ -34,7 +36,7 @@ namespace WinFormsApp3
 
         private void botonIS_Click(object sender, EventArgs e)
         {
-            LocalizacionFechaNaci LFN = new LocalizacionFechaNaci();
+            CrearCuentaPaisFecha LFN = new CrearCuentaPaisFecha();
 
             LFN.Show();
 
