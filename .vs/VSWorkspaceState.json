@@ -1,6 +1,11 @@
 {
   "ExpandedNodes": [
-    ""
+    "",
+    "\\Capas",
+    "\\Capas\\CapaDatos",
+    "\\Capas\\CapaEntidad",
+    "\\Capas\\CapaNegocio",
+    "\\Properties"
   ],
   "SelectedNode": "\\GameStop.sln",
   "PreviewInSolutionExplorer": false

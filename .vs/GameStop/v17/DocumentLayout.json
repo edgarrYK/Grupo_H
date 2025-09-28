@@ -3,20 +3,36 @@
   "WorkspaceRootPath": "C:\\Users\\RAYNI\\OneDrive\\Documentos\\GitHub\\Grupo_H\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{89804269-9BF7-44D8-8258-7F3F801E5FBE}|CapaPresentacion.csproj|c:\\users\\rayni\\onedrive\\documentos\\github\\grupo_h\\capas\\capaentidad\\obj\\release\\net8.0-windows\\.netcoreapp,version=v8.0.assemblyattributes.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{89804269-9BF7-44D8-8258-7F3F801E5FBE}|CapaPresentacion.csproj|solutionrelative:capas\\capaentidad\\obj\\release\\net8.0-windows\\.netcoreapp,version=v8.0.assemblyattributes.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{89804269-9BF7-44D8-8258-7F3F801E5FBE}|CapaPresentacion.csproj|c:\\users\\rayni\\onedrive\\documentos\\github\\grupo_h\\capas\\capanegocio\\obj\\release\\net8.0-windows\\.netcoreapp,version=v8.0.assemblyattributes.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{89804269-9BF7-44D8-8258-7F3F801E5FBE}|CapaPresentacion.csproj|solutionrelative:capas\\capanegocio\\obj\\release\\net8.0-windows\\.netcoreapp,version=v8.0.assemblyattributes.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{89804269-9BF7-44D8-8258-7F3F801E5FBE}|CapaPresentacion.csproj|c:\\users\\rayni\\onedrive\\documentos\\github\\grupo_h\\capas\\capadatos\\obj\\release\\net8.0-windows\\.netcoreapp,version=v8.0.assemblyattributes.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{89804269-9BF7-44D8-8258-7F3F801E5FBE}|CapaPresentacion.csproj|solutionrelative:capas\\capadatos\\obj\\release\\net8.0-windows\\.netcoreapp,version=v8.0.assemblyattributes.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6DAEE596-6BEA-CF1A-D9A0-C85BE4BCB152}|Capas\\CapaDatos\\CapaDatos.csproj|c:\\users\\rayni\\onedrive\\documentos\\github\\grupo_h\\capas\\capadatos\\capadatos.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{6DAEE596-6BEA-CF1A-D9A0-C85BE4BCB152}|Capas\\CapaDatos\\CapaDatos.csproj|solutionrelative:capas\\capadatos\\capadatos.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{75177FEA-00D3-4A65-DF7D-519A4712F75F}|Capas\\CapaEntidad\\CapaEntidad.csproj|c:\\users\\rayni\\onedrive\\documentos\\github\\grupo_h\\capas\\capaentidad\\capaentidad.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{75177FEA-00D3-4A65-DF7D-519A4712F75F}|Capas\\CapaEntidad\\CapaEntidad.csproj|solutionrelative:capas\\capaentidad\\capaentidad.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D4BB4E04-AEB7-DB06-CB66-2C98EBED72FB}|Capas\\CapaNegocio\\CapaNegocio.csproj|c:\\users\\rayni\\onedrive\\documentos\\github\\grupo_h\\capas\\capanegocio\\capanegocio.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{D4BB4E04-AEB7-DB06-CB66-2C98EBED72FB}|Capas\\CapaNegocio\\CapaNegocio.csproj|solutionrelative:capas\\capanegocio\\capanegocio.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{89804269-9BF7-44D8-8258-7F3F801E5FBE}|CapaPresentacion.csproj|c:\\users\\rayni\\onedrive\\documentos\\github\\grupo_h\\capapresentacion.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
       "RelativeMoniker": "D:0:0:{89804269-9BF7-44D8-8258-7F3F801E5FBE}|CapaPresentacion.csproj|solutionrelative:capapresentacion.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
     },
     {
       "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\RAYNI\\OneDrive\\Documentos\\GitHub\\Grupo_H\\obj\\Debug\\net8.0-windows\\CapaPresentacion.AssemblyInfo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:obj\\Debug\\net8.0-windows\\CapaPresentacion.AssemblyInfo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{89804269-9BF7-44D8-8258-7F3F801E5FBE}|CapaPresentacion.csproj|c:\\users\\rayni\\onedrive\\documentos\\github\\grupo_h\\capas\\capanegocio\\obj\\debug\\net8.0-windows\\capanegocio.assemblyinfo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{89804269-9BF7-44D8-8258-7F3F801E5FBE}|CapaPresentacion.csproj|solutionrelative:capas\\capanegocio\\obj\\debug\\net8.0-windows\\capanegocio.assemblyinfo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{89804269-9BF7-44D8-8258-7F3F801E5FBE}|CapaPresentacion.csproj|c:\\users\\rayni\\onedrive\\documentos\\github\\grupo_h\\capas\\capaentidad\\obj\\debug\\net8.0-windows\\capaentidad.assemblyinfo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{89804269-9BF7-44D8-8258-7F3F801E5FBE}|CapaPresentacion.csproj|solutionrelative:capas\\capaentidad\\obj\\debug\\net8.0-windows\\capaentidad.assemblyinfo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\RAYNI\\OneDrive\\Documentos\\GitHub\\Grupo_H\\obj\\Debug\\net8.0-windows\\.NETCoreApp,Version=v8.0.AssemblyAttributes.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -38,7 +54,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 3,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Bookmark",
@@ -46,20 +62,85 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "CapaNegocio.AssemblyInfo.cs",
-              "DocumentMoniker": "C:\\Users\\RAYNI\\OneDrive\\Documentos\\GitHub\\Grupo_H\\Capas\\CapaNegocio\\obj\\Debug\\net8.0-windows\\CapaNegocio.AssemblyInfo.cs",
-              "RelativeDocumentMoniker": "Capas\\CapaNegocio\\obj\\Debug\\net8.0-windows\\CapaNegocio.AssemblyInfo.cs",
-              "ToolTip": "C:\\Users\\RAYNI\\OneDrive\\Documentos\\GitHub\\Grupo_H\\Capas\\CapaNegocio\\obj\\Debug\\net8.0-windows\\CapaNegocio.AssemblyInfo.cs",
-              "RelativeToolTip": "Capas\\CapaNegocio\\obj\\Debug\\net8.0-windows\\CapaNegocio.AssemblyInfo.cs",
-              "ViewState": "AgIAAAkAAAAAAAAAAAAmwBUAAABSAAAAAAAAAA==",
+              "DocumentIndex": 0,
+              "Title": ".NETCoreApp,Version=v8.0.AssemblyAttributes.cs",
+              "DocumentMoniker": "C:\\Users\\RAYNI\\OneDrive\\Documentos\\GitHub\\Grupo_H\\Capas\\CapaEntidad\\obj\\Release\\net8.0-windows\\.NETCoreApp,Version=v8.0.AssemblyAttributes.cs",
+              "RelativeDocumentMoniker": "Capas\\CapaEntidad\\obj\\Release\\net8.0-windows\\.NETCoreApp,Version=v8.0.AssemblyAttributes.cs",
+              "ToolTip": "C:\\Users\\RAYNI\\OneDrive\\Documentos\\GitHub\\Grupo_H\\Capas\\CapaEntidad\\obj\\Release\\net8.0-windows\\.NETCoreApp,Version=v8.0.AssemblyAttributes.cs",
+              "RelativeToolTip": "Capas\\CapaEntidad\\obj\\Release\\net8.0-windows\\.NETCoreApp,Version=v8.0.AssemblyAttributes.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-28T17:12:34.377Z",
+              "WhenOpened": "2025-09-28T17:36:01.141Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
+              "Title": ".NETCoreApp,Version=v8.0.AssemblyAttributes.cs",
+              "DocumentMoniker": "C:\\Users\\RAYNI\\OneDrive\\Documentos\\GitHub\\Grupo_H\\Capas\\CapaNegocio\\obj\\Release\\net8.0-windows\\.NETCoreApp,Version=v8.0.AssemblyAttributes.cs",
+              "RelativeDocumentMoniker": "Capas\\CapaNegocio\\obj\\Release\\net8.0-windows\\.NETCoreApp,Version=v8.0.AssemblyAttributes.cs",
+              "ToolTip": "C:\\Users\\RAYNI\\OneDrive\\Documentos\\GitHub\\Grupo_H\\Capas\\CapaNegocio\\obj\\Release\\net8.0-windows\\.NETCoreApp,Version=v8.0.AssemblyAttributes.cs",
+              "RelativeToolTip": "Capas\\CapaNegocio\\obj\\Release\\net8.0-windows\\.NETCoreApp,Version=v8.0.AssemblyAttributes.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAACHAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-28T17:35:56.375Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": ".NETCoreApp,Version=v8.0.AssemblyAttributes.cs",
+              "DocumentMoniker": "C:\\Users\\RAYNI\\OneDrive\\Documentos\\GitHub\\Grupo_H\\Capas\\CapaDatos\\obj\\Release\\net8.0-windows\\.NETCoreApp,Version=v8.0.AssemblyAttributes.cs",
+              "RelativeDocumentMoniker": "Capas\\CapaDatos\\obj\\Release\\net8.0-windows\\.NETCoreApp,Version=v8.0.AssemblyAttributes.cs",
+              "ToolTip": "C:\\Users\\RAYNI\\OneDrive\\Documentos\\GitHub\\Grupo_H\\Capas\\CapaDatos\\obj\\Release\\net8.0-windows\\.NETCoreApp,Version=v8.0.AssemblyAttributes.cs",
+              "RelativeToolTip": "Capas\\CapaDatos\\obj\\Release\\net8.0-windows\\.NETCoreApp,Version=v8.0.AssemblyAttributes.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAACHAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-28T17:35:39.81Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "CapaDatos",
+              "DocumentMoniker": "C:\\Users\\RAYNI\\OneDrive\\Documentos\\GitHub\\Grupo_H\\Capas\\CapaDatos\\CapaDatos.csproj",
+              "RelativeDocumentMoniker": "Capas\\CapaDatos\\CapaDatos.csproj",
+              "ToolTip": "C:\\Users\\RAYNI\\OneDrive\\Documentos\\GitHub\\Grupo_H\\Capas\\CapaDatos\\CapaDatos.csproj",
+              "RelativeToolTip": "Capas\\CapaDatos\\CapaDatos.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-09-28T17:31:18.459Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "CapaEntidad",
+              "DocumentMoniker": "C:\\Users\\RAYNI\\OneDrive\\Documentos\\GitHub\\Grupo_H\\Capas\\CapaEntidad\\CapaEntidad.csproj",
+              "RelativeDocumentMoniker": "Capas\\CapaEntidad\\CapaEntidad.csproj",
+              "ToolTip": "C:\\Users\\RAYNI\\OneDrive\\Documentos\\GitHub\\Grupo_H\\Capas\\CapaEntidad\\CapaEntidad.csproj",
+              "RelativeToolTip": "Capas\\CapaEntidad\\CapaEntidad.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAA1AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-09-28T17:31:13.792Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "CapaNegocio",
+              "DocumentMoniker": "C:\\Users\\RAYNI\\OneDrive\\Documentos\\GitHub\\Grupo_H\\Capas\\CapaNegocio\\CapaNegocio.csproj",
+              "RelativeDocumentMoniker": "Capas\\CapaNegocio\\CapaNegocio.csproj",
+              "ToolTip": "C:\\Users\\RAYNI\\OneDrive\\Documentos\\GitHub\\Grupo_H\\Capas\\CapaNegocio\\CapaNegocio.csproj",
+              "RelativeToolTip": "Capas\\CapaNegocio\\CapaNegocio.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAA1AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-09-28T17:31:03.428Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
               "Title": "CapaPresentacion.AssemblyInfo.cs",
               "DocumentMoniker": "C:\\Users\\RAYNI\\OneDrive\\Documentos\\GitHub\\Grupo_H\\obj\\Debug\\net8.0-windows\\CapaPresentacion.AssemblyInfo.cs",
               "RelativeDocumentMoniker": "obj\\Debug\\net8.0-windows\\CapaPresentacion.AssemblyInfo.cs",
@@ -67,38 +148,24 @@
               "RelativeToolTip": "obj\\Debug\\net8.0-windows\\CapaPresentacion.AssemblyInfo.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAgAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-28T16:47:42.662Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-09-28T16:47:42.662Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 6,
               "Title": "CapaPresentacion.csproj",
               "DocumentMoniker": "C:\\Users\\RAYNI\\OneDrive\\Documentos\\GitHub\\Grupo_H\\CapaPresentacion.csproj",
               "RelativeDocumentMoniker": "CapaPresentacion.csproj",
               "ToolTip": "C:\\Users\\RAYNI\\OneDrive\\Documentos\\GitHub\\Grupo_H\\CapaPresentacion.csproj",
               "RelativeToolTip": "CapaPresentacion.csproj",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAzAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
               "WhenOpened": "2025-09-28T16:48:47.441Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "CapaEntidad.AssemblyInfo.cs",
-              "DocumentMoniker": "C:\\Users\\RAYNI\\OneDrive\\Documentos\\GitHub\\Grupo_H\\Capas\\CapaEntidad\\obj\\Debug\\net8.0-windows\\CapaEntidad.AssemblyInfo.cs",
-              "RelativeDocumentMoniker": "Capas\\CapaEntidad\\obj\\Debug\\net8.0-windows\\CapaEntidad.AssemblyInfo.cs",
-              "ToolTip": "C:\\Users\\RAYNI\\OneDrive\\Documentos\\GitHub\\Grupo_H\\Capas\\CapaEntidad\\obj\\Debug\\net8.0-windows\\CapaEntidad.AssemblyInfo.cs",
-              "RelativeToolTip": "Capas\\CapaEntidad\\obj\\Debug\\net8.0-windows\\CapaEntidad.AssemblyInfo.cs",
-              "ViewState": "AgIAAAkAAAAAAAAAAAAmwBUAAABSAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-28T17:12:24.985Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 9,
               "Title": ".NETCoreApp,Version=v8.0.AssemblyAttributes.cs",
               "DocumentMoniker": "C:\\Users\\RAYNI\\OneDrive\\Documentos\\GitHub\\Grupo_H\\Capas\\CapaNegocio\\obj\\Debug\\net8.0-windows\\.NETCoreApp,Version=v8.0.AssemblyAttributes.cs",
               "RelativeDocumentMoniker": "Capas\\CapaNegocio\\obj\\Debug\\net8.0-windows\\.NETCoreApp,Version=v8.0.AssemblyAttributes.cs",
@@ -106,12 +173,11 @@
               "RelativeToolTip": "Capas\\CapaNegocio\\obj\\Debug\\net8.0-windows\\.NETCoreApp,Version=v8.0.AssemblyAttributes.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAACHAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-28T17:12:10.959Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-09-28T17:12:10.959Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 10,
               "Title": ".NETCoreApp,Version=v8.0.AssemblyAttributes.cs",
               "DocumentMoniker": "C:\\Users\\RAYNI\\OneDrive\\Documentos\\GitHub\\Grupo_H\\Capas\\CapaEntidad\\obj\\Debug\\net8.0-windows\\.NETCoreApp,Version=v8.0.AssemblyAttributes.cs",
               "RelativeDocumentMoniker": "Capas\\CapaEntidad\\obj\\Debug\\net8.0-windows\\.NETCoreApp,Version=v8.0.AssemblyAttributes.cs",
@@ -119,12 +185,11 @@
               "RelativeToolTip": "Capas\\CapaEntidad\\obj\\Debug\\net8.0-windows\\.NETCoreApp,Version=v8.0.AssemblyAttributes.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAACHAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-28T17:11:57.711Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-09-28T17:11:57.711Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 8,
               "Title": ".NETCoreApp,Version=v8.0.AssemblyAttributes.cs",
               "DocumentMoniker": "C:\\Users\\RAYNI\\OneDrive\\Documentos\\GitHub\\Grupo_H\\obj\\Debug\\net8.0-windows\\.NETCoreApp,Version=v8.0.AssemblyAttributes.cs",
               "RelativeDocumentMoniker": "obj\\Debug\\net8.0-windows\\.NETCoreApp,Version=v8.0.AssemblyAttributes.cs",
@@ -132,8 +197,7 @@
               "RelativeToolTip": "obj\\Debug\\net8.0-windows\\.NETCoreApp,Version=v8.0.AssemblyAttributes.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAACHAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-28T16:44:27.708Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-09-28T16:44:27.708Z"
             }
           ]
         },
